@@ -39,4 +39,4 @@ jobs:
         # [중요] Dockerfile이 있는 위치 지정 (현재 폴더 기준)
         context: ./community 
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/community-be:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/community-backend:v1.1
